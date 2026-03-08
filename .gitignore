@@ -1,0 +1,8 @@
+.config/
+sample_data/
+interview-assistant-results/
+__pycache__/
+*.pt
+*.bin
+*.ckpt
+*.log
