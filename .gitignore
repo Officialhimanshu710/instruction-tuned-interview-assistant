@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Colab / Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Block Colab system files
+.config/
+.config
+
+# DO NOT UPLOAD THESE HUGE MODEL FILES
+interview-assistant-results/
+interview-assistant-lora/
+runs/
+*.safetensors
+*.bin
