@@ -1,8 +1,13 @@
-.config/
-sample_data/
-interview-assistant-results/
+# Python caches
 __pycache__/
-*.pt
+*.py[cod]
+
+# Colab / Jupyter checkpoints
+.ipynb_checkpoints/
+
+# DO NOT UPLOAD THESE HUGE MODEL FILES
+interview-assistant-results/
+interview-assistant-lora/
+runs/
+*.safetensors
 *.bin
-*.ckpt
-*.log
